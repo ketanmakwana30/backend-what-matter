@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "figlet": "^1.11.4",
+    "one-liner-joke": "^1.2.2",
+    "random-cat-img": "^1.1.8"
+  }
+}

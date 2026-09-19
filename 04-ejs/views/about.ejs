@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <link rel="stylesheet" href="../stylesheets/about.css" />
+
+    <!-- 1. Add Bootstrap CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+  </head>
+
+  <body>
+    <section class="history-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <p class="title-bg-small">About us</p>
+            <h3 class="section-title">Our <span>History</span></h3>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12">
+            <div
+              id="history-slid"
+              class="carousel slide"
+              data-ride="carousel"
+              data-interval="false"
+            >
+              <!-- Carousel Inner -->
+              <div class="carousel-inner">
+                <div class="carousel-item row active">
+                  <div class="col-lg-6 col-md-12 pl-0">
+                    <div class="history-img">
+                      <img class="img-fluid" src="https://i.ibb.co/CKNmhMX/blog1.jpg" alt="" />
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-12 pr-0">
+                    <div class="history-content">
+                      <p class="title-bg-small primary-bg"><%= name %></p>
+                      <h2 class="column-title"><%= tag%> <span> <%= price %> </span></h2>
+                      <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit nemo quas quam
+                        ipsam vitae aut nisi perferendis error?
+                      </p>
+                      <p>
+                        Benefit of the society where we operate. A successful website obviously
+                        needs great design to be one of the top IT companies in India, but web
+                        design is not enough.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Indicators -->
+              <ol class="carousel-indicators text-center">
+                <li data-target="#history-slid" data-slide-to="0" class="active">2015</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. Add Bootstrap and jQuery JS CDNs for the Carousel to function -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
