@@ -1,10 +1,12 @@
 ## setup ejs:
 
-1. ejs install -
-   npm i ejs
+1. ejs install:
 
-2. configure ejs -
-   app.set("view engine", "ejs");
+- `npm i ejs`
+
+2. configure ejs:
+
+- `app.set("view engine", "ejs");`
 
 3. Create views folder
 
@@ -12,7 +14,9 @@
 
 5. send ki jagah render karo => render karte waqt index.ejs ki jagah only index likho
 
-EX (index.js) : `app.set("view engine", "ejs");`
+EX (index.js) :
+
+- `app.set("view engine", "ejs");`
 
 ---
 
@@ -26,6 +30,35 @@ EX (index.js) : `app.set("view engine", "ejs");`
 
 4. understand the path
 
-EX (index.js) : `app.use(express.static("./public"));`
-<br>
-EX (index.ejs) : `<link rel="stylesheet" href="../stylesheets/about.css" />`
+EX (index.js) :
+
+- `app.use(express.static("./public"));`
+
+  <br>
+EX (index.ejs) :
+
+- `<link rel="stylesheet" href="../stylesheets/about.css" />`
+
+---
+
+## Steps to use express generator
+
+1. One time install in laptop Globally:
+
+- `npm i express-generator -g`
+
+2. to create new app anywhere:
+
+- open cmd move to desktop
+
+3. create new app:
+
+- `express appname --view=ejs`
+
+4. now use 2 command:
+
+- `cd appname`
+
+- `npm i `
+
+- open it on vs code
